@@ -10,7 +10,17 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Простая программа на С#");
+            int y;
+
+            var x= 100;
+
+            Console.WriteLine("X содержит " + x);
+
+            y = x / 2;
+
+            Console.WriteLine("Y содержит " + y);
+
+
             Console.ReadKey();
         }
     }
